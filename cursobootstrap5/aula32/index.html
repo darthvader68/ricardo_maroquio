@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>Componentes Simples</title>
+</head>
+
+<body>
+    <div class="container my-5">
+        <nav class="breadcrumb" style="--bs-breadcrumb-divider: ' :: '">
+            <li class="breadcrumb-item">
+                <a href="#">Area Restrita</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Perfil</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Seguranca</a>
+            </li>
+        </nav>
+        <hr>
+        <div class="spinner-border text-danger"></div>
+        <div class="spinner-grow text-success"></div>
+        <hr>
+        Barras de progressao:
+        <br>
+        <br>
+        <div class="progress">
+            <div class="progress-bar w-75 bg-warning">75%</div>
+        </div>
+        <hr>
+        <div class="progress">
+            <div class="progress-bar w-25 bg-primary">25%</div>
+            <div class="progress-bar w-25 bg-success">25%</div>
+            <div class="progress-bar w-25 bg-warning">25%</div>
+        </div>
+        <hr>
+        <div class="progress" style="height: 50px">
+            <div class="progress-bar w-75 bg-warning progress-bar-striped progress-bar-animated">75%</div>
+        </div>
+        <hr>
+        Botoes de paginacao:
+        <br>
+        <br>
+        <ul class="pagination">
+            <li class="page-item">
+                <a href="#" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">3</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">4</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">5</a>
+            </li>
+        </ul>
+        <hr>
+        Colapse - permite mostrar ou ocultar um conteudo a partir de um clique
+        <br>
+        <br>
+        <p>
+            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Mostrar</button>
+        </p>
+        <div class="collapse" id="painel">
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum hic velit rem atque, incidunt assumenda blanditiis repellat? Velit, nesciunt veniam, doloribus explicabo esse fugit excepturi officia debitis, hic totam ipsa labore eius cumque aspernatur nemo eligendi quia eum beatae impedit vel ipsum ullam odio? Praesentium molestiae esse reprehenderit provident possimus repudiandae fugit architecto rerum fugiat ullam consequatur, rem amet quia iure excepturi. Odio voluptate molestiae ipsum dolor aut ab hic, sequi eos laudantium? Excepturi et maxime nulla ab quis odit dolores, enim molestias quaerat, omnis hic? Molestias enim corporis deserunt quod! Rerum explicabo beatae possimus pariatur placeat. At, animi nihil?
+            </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

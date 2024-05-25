@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Posicionamento</title>
+</head>
+
+<body>
+    <!-- vstack - permite o afastamento atraves do gap -->
+    <div class="container my-3 vstack gap-3">
+        <div class="p-5 bg-primary"></div>
+        <div class="p-5 bg-success"></div>
+        <div class="p-5 bg-warning"></div>
+    </div>
+
+    <hr>
+
+    <!-- vstack - permite o afastamento horizontal atraves do gap 
+        vr - cria uma linha vertical
+        ms-auto - cria uma margem a esquerda
+    -->
+    <div class="container my-3 hstack gap-3">
+        <div class="p-5 bg-primary"></div>
+        <div class="vr ms-auto"></div>
+        <div class="p-5 bg-success"></div>
+        <div class="p-5 bg-warning"></div>
+    </div>
+
+    <hr>
+
+    <div class="container my-3">
+        <div class="p-5 bg-primary"></div>
+        <div class="p-5 bg-success position-absolute bottom-0 start-0"></div>
+        <div class="p-5 bg-warning"></div>
+    </div>
+
+
+
+</body>
+
+</html>
